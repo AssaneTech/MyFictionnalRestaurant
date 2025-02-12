@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-warning">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Air Senegal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="vh-100 d-flex align-items-center justify-content-center text-center text-success" style="background: url('./image/airsenegal.jfif') no-repeat center center/cover;">
+        <div>
+            <h1>Explore the World and particularly Senegal</h1>
+            <p class="text-dark">Discover breathtaking destinations with us</p>
+            <a href="#destinations" class="btn btn-primary">Start Your Journey</a>
+        </div>
+    </header>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Top Destinations</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/dakar.jfif" class="card-img-top" alt="Dakar">
+                        <div class="card-body">
+                            <h5 class="card-title">Dakar</h5>
+                            <p class="card-text">Experience the charm of the City of Lights,the City of the African Renaissance Monument</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/capskirring.jfif" class="card-img-top" alt="Cap Skirring">
+                        <div class="card-body">
+                            <h5 class="card-title">Capskiring</h5>
+                            <p class="card-text">Relax on pristine beaches with crystal-clear waters.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/saint-louis.jfif" class="card-img-top" alt="Saint-Louis">
+                        <div class="card-body">
+                            <h5 class="card-title">Saint-Louis</h5>
+                            <p class="card-text">Explore the vibrant culture of Saint-Louis, the Ndar's Thieboudienne</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/tunisie.jfif" class="card-img-top" alt="Tunisie">
+                        <div class="card-body">
+                            <h5 class="card-title">Tunisie</h5>
+                            <p class="card-text">Explore the vibrant culture of Tunsia</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/paris.jfif" class="card-img-top" alt="Paris">
+                        <div class="card-body">
+                            <h5 class="card-title">Paris</h5>
+                            <p class="card-text">Explore the vibrant culture Paris</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/casablanca.jfif" class="card-img-top" alt="Casablanca">
+                        <div class="card-body">
+                            <h5 class="card-title">Casablanca</h5>
+                            <p class="card-text">Explore the vibrant culture of Casablanca/p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="py-5 ">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Tours</h2>
+            <div class="accordion" id="toursAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour1">Dakar Monument</button>
+                    </h2>
+                    <div id="tour1" class="accordion-collapse collapse show" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">Experience the best of Dakar with our exclusive guided tours. <a href="#">View Details</a></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour2">Saint-Louis Bridge</button>
+                    </h2>
+                    <div id="tour2" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">Enjoy luxury resorts in the city of water. <a href="#">View Details</a></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour2">Cap Skirring</button>
+                    </h2>
+                    <div id="tour2" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">Enjoy our city  <a href="#">View Details</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Destination of Interest</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-danger text-white text-center py-3">
+        <p>&copy; 2025 Air Senegal. Follow us on social media.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
